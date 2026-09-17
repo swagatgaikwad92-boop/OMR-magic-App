@@ -1,0 +1,14 @@
+{
+  "name": "OMR Magic",
+  "short_name": "OMR Magic",
+  "description": "Smart OMR checking for teachers — understand the sheet, remember the test, review every uncertain mark.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#EDEAE0",
+  "theme_color": "#24262B",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

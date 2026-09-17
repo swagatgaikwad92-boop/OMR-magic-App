@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OMR Magic</title>
+<meta name="description" content="Smart OMR checking for teachers — understand the sheet, remember the test, review every uncertain mark.">
+<meta name="theme-color" content="#24262B">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app-shell">
+  <nav class="rail" aria-label="Main navigation">
+    <div class="rail__brand">OMR Magic</div>
+    <div class="rail__tagline">Part 1 — Understanding &amp; memory</div>
+    <ul class="rail__nav" id="nav-list">
+      <li><button data-view="dashboard" class="active">Dashboard</button></li>
+      <li><button data-view="templates">Sheet templates</button></li>
+      <li><button data-view="tests">Tests</button></li>
+      <li><button data-view="answer-key">Answer key</button></li>
+      <li><button data-view="grade-sheet">Grade a sheet</button></li>
+      <li><button data-view="review">Review &amp; results</button></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="view-dashboard" class="view active"></section>
+    <section id="view-templates" class="view"></section>
+    <section id="view-tests" class="view"></section>
+    <section id="view-answer-key" class="view"></section>
+    <section id="view-grade-sheet" class="view"></section>
+    <section id="view-review" class="view"></section>
+  </main>
+</div>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
